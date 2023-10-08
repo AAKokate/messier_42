@@ -9,7 +9,7 @@ def home():
     if 'logged_in' not in st.session_state:
         st.session_state['logged_in'] = False
         st.session_state['user'] = 'none'
-    st.image('./media/athena.jpeg')
+    st.image('./media/athena.jpg')
     st.markdown('# Athen.ai')
 
     st.markdown("""
