@@ -1,5 +1,5 @@
 import streamlit as st
-import webbrowser
+
 
 
 
@@ -12,12 +12,8 @@ def home():
     st.image('./media/athena.jpeg')
     st.markdown('# Athen.ai')
     
-    st.markdown('https://colab.research.google.com/drive/1T_keIjMT2AWpaRAeePQuEq7WN-jwQNAT?usp=sharing')
-
-    url = "https://colab.research.google.com/drive/1T_keIjMT2AWpaRAeePQuEq7WN-jwQNAT?usp=sharing"
-    if st.button('Model Demo'):
-        webbrowser.open_new_tab(url)
-        
+    st.link_button("Model Demo", "https://colab.research.google.com/drive/1T_keIjMT2AWpaRAeePQuEq7WN-jwQNAT?usp=sharing")
+   
     st.markdown("""
 
 
