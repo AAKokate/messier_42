@@ -31,6 +31,6 @@ if prompt := st.chat_input("Enter your message"):
 # Sidebar
 
 with st.sidebar:
-    st.sidebar.title("Sidebar Title")
+    st.sidebar.title("Documents")
     pdf_data = st.file_uploader("Upload your Document here", accept_multiple_files=True)
 
